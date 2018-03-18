@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "info": {
+        "age": 31,
+        "dob": "1982-04-04",
+        "type": "vip",
+        "distance": 10,
+        "size": "M",
+        "shipmethod": "posts",
+        "firstname": "คนเดียว 1",
+        "lastname": "เพื่อพี่น้อง",
+        "gender": "male",
+        "email": "pondzz@gmail.com",
+        "mobile": "0855198189",
+        "emer_person": "tactic",
+        "emer_contact": "0830099599"
+      },
+      "address": {
+        "moo": "11",
+        "address": "10/99",
+        "subDistrict": "สะเดา",
+        "district": "สำนักขาม",
+        "province": "สงขลา",
+        "zipcode": 90320,
+        "soi": "แบริ่ง 58",
+        "street": "สุขุมวิท"
+      }
+    }
+
+  ]
+}
