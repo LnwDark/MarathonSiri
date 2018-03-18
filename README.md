@@ -1,8 +1,8 @@
-### Install and Composer
-REQUIREMENTS
-------------
 
-The minimum requirement by this project template that your Web server supports PHP 5.4.0.
+------------
+1. connet db
+2. php yii migrate
+3. post ไปที่ Path /register/post-registe 
 
 
 INSTALLATION
