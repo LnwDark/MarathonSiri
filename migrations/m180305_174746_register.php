@@ -18,6 +18,7 @@ class m180305_174746_register extends Migration
             'sex'=>$this->smallInteger(),
             'birthday'=>$this->date(),
             'id_card'=>$this->string(),
+            'age'=>$this->integer(),
             'phone'=>$this->string(),
             'email'=>$this->string(),
             'club'=>$this->string(),
@@ -27,12 +28,14 @@ class m180305_174746_register extends Migration
             'type_group'=>$this->smallInteger(),   //ประเภทกลุ่ม
             'emergency_name'=>$this->string(),
             'emergency_phone'=>$this->string(),
-
             'type_register'=>$this->string(),
             'type_run'=>$this->string(),
             'size_shirts'=>$this->string(),
 
             'slip'=>$this->string(),
+            'send_price'=>$this->float(),
+            'amount_price'=>$this->float(),
+
             'address'=>$this->string(),
             'house_no'=>$this->string(), //หมุ่
             'soi'=>$this->string(), //ซอย

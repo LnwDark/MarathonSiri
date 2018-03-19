@@ -3,9 +3,12 @@
         font-size: 20px;
         font-weight: bold;
     }
+    [v-cloak] {
+        display: none;
+    }
 </style>
 <div class="register-create">
-<div class="container" id="search-user">
+<div class="container" id="search-user" v-cloak>
     <div class="panel panel-primary">
         <div class="panel-heading">
             <h3 class="panel-title">ตรวจสอบการรับสินค้า</h3>
@@ -13,7 +16,7 @@
         <div class="panel-body">
             <div class="form-group row">
                 <div class=" col-md-4">
-                    <input type="text" class="form-control input-lg"  ref='search' v-model="search"
+                    <input type="text" class="form-control input-lg"  ref='search' autofocus v-model="search"
                            placeholder="ค้นหารหัสผู้สมัคร หรือ เบอร์โทร ">
                     <table class="table table-bordered table-hover" width="100%">
                         <thead>
@@ -134,3 +137,6 @@
         </div>
     </div>
 </div>
+<?php
+\app\assets\UseAppAsset::register($this);
+?>
